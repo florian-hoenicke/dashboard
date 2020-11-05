@@ -46,6 +46,8 @@
 ## Monitor Jina "Hello, World!" with Dashboard
 
 Jina "Hello, World" is a simple demo of image neural search for Fashion-MNIST.
+Make sure to have Fluentd installed (gem install fluentd --no-doc)
+Run: fluentd -c jina/resources/fluent.conf (from https://github.com/jina-ai/jina)
 
 1. Run the following command in the console
    - (Python >=3.7 required)
